@@ -1,0 +1,9 @@
+{
+  "author": "Dublin Institute of Design",
+  "name": "spotify-artist-battle-app",
+  "description": "Battle Artsits to see who is the best!",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.16.0"
+  }
+}

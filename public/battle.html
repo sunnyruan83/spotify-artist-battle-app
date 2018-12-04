@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Spotify Artist Battle Template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/master.css" type="text/css">
+  </head>
+  
+  <body>
+   <h2>The Most Popular Musicians</h2>
+   <p>Based On Spotify's Latest Play Counts,Which Musicians Is More popular</p>
+   
+     <div class="container">
+      <div id="show-selection">
+        <div class="grid">
+          <div id="container">
+            <div class="mx-auto w-50 mb-3 mt-3">
+               <input id="artist-input" class="mx-auto" type="text" name="" placeholder="Artist's name" /><button id="artist-search">Search</button>
+            </div>
+               <div id="artists" class="artists grid"></div>
+          </div>
+                <div id="container-2">
+                      <div class="mx-auto w-50 mb-3 mt-3">
+                         <input id="artist-input-2" class="mx-auto" type="text" name="" placeholder=" Artist's name" />
+                         <button id="artist-search-2">Search</button>
+                       </div>
+                           <div id="artists-2" class="artists grid"></div>
+                        </div>
+                </div>
+      </div>
+      <div id="show-winner">
+        <h2 class="text-center">The Winner is</h2>
+        <div id="winner"></div>
+      </div>
+    </div>
+    <script type="module" src="/js/pages/battle.js"></script>
+  </body>
+</html>
