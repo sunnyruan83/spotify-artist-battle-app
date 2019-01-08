@@ -135,6 +135,21 @@ html,body {
     vertical-align: top;
     outline:none; 
   }
+  #Battle{
+    border-radius: 50px;
+    left: 55%;
+  }
+  img{
+    margin: 15px;
+    vertical-align: middle;
+    border-style: none;
+    width:350px;
+    height: 350px;
+    border-radius: 90%;
+    border:3px solid #62d36e;
+
+  }
+ 
   .grid {
         display: grid;
         grid-template-columns:auto auto auto;
@@ -142,7 +157,8 @@ html,body {
      
   
       #show-winner {
-        display: none;
+       display: none;
+
       }
       .artists {
         max-height: 500px;
